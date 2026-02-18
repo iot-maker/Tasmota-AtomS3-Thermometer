@@ -9,11 +9,6 @@ Angepasste [Tasmota](https://github.com/arendst/Tasmota)-Firmware für **m5Stack
 
 Die Messwerte werden direkt auf dem integrierten Display des AtomS3 dargestellt.
 
-## Template
-Nach der Installation sicherstellen, dass das korrekte GPIO Template eingestellt ist.
-Dies sollte üblicherweise mit im autoconf-Prozess passieren.
-Ansonsten folgendes in 'Configuration > Other > Template' kopieren und aktivieren:
-{"NAME":"ATOMS3DISPLAY","GPIO":[0,608,640,0,1056,1,1,1,6210,0,0,0,0,0,0,768,992,736,0,0,0,704,800,1024,0,0,0,0,416,0,32,0,0,0,0,0,0,0],"FLAG":0,"BASE":1}
 
 ## Installation
 
