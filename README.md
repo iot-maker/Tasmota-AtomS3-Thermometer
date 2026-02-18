@@ -14,7 +14,7 @@ Die Messwerte werden direkt auf dem integrierten Display des AtomS3 dargestellt.
 
 ### 1. Firmware flashen
 
-Die Firmware mit einem ESP WEbinstaller z.B. [Tasmota WebInstaller](https://tasmota.github.io/install/) oder wenn Tasmota bereits drauf ist per OTA Firmware Upgrade auf den AtomS3 aufspielen.
+Die Firmware mit einem ESP Webinstaller z.B. [Tasmota WebInstaller](https://tasmota.github.io/install/) oder wenn Tasmota bereits drauf ist per OTA Firmware Upgrade auf den AtomS3 aufspielen.
 
 > Firmware-Binaries findest du unter [Releases](../../releases).
 
