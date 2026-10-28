@@ -8,6 +8,12 @@ Dieser Ordner enthält alle Dateien für die automatische Konfiguration via Tasm
 - **display.ini** - Display-Konfiguration für das GC9107 Display
 - **autoexec.be** - Berry-Script für die Sensor-Anzeige (läuft bei jedem Boot)
 
+## AtomS3R
+
+Die Quelldateien für den **AtomS3R** liegen im Unterordner [`atoms3r/`](atoms3r/), die fertige Datei ist `atoms3r-thermometer.autoconf`. Neu packen mit `python atoms3r/create_autoconf.py`.
+
+Unterschiede zum AtomS3: anderes GPIO-Template (Display-Pins, I2C-Bus 2), keine `:B`-Zeile in `display.ini`, Hintergrundbeleuchtung über den LP5562 in `autoexec.be`, `DisplayInvert 1`.
+
 ## Autoconf-Datei erstellen
 
 ### Windows:
