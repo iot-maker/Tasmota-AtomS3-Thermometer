@@ -58,8 +58,7 @@ AtomS3R:
 | [m5Stack AtomS3](https://docs.m5stack.com/en/core/AtomS3) | ESP32-S3 Mikrocontroller mit Display |
 | [m5Stack AtomS3R](https://docs.m5stack.com/en/core/AtomS3R) | Alternative: ESP32-S3-PICO mit 8 MB PSRAM und Display |
 | MLX90614 | Kontaktloser IR-Temperatursensor |
-| SHT40 | Temperatur- & Feuchtigkeitssensor |
-| BMP280 | Barometrischer Drucksensor |
+| m5Stack ENV IV Unit | Enthält SHT40 (Temperatur & Feuchtigkeit) und BMP280 (Luftdruck), Anschluss per Grove |
 
 ### Unterschiede AtomS3 / AtomS3R
 
