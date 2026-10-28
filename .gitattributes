@@ -21,3 +21,8 @@
 *.autoconf binary
 *.bin binary
 *.tapp binary
+
+# AtomS3R-Autoconf: Tasmota braucht LF (CRLF -> DisplayInvert greift nicht)
+autoconf/atoms3r/*.bat text eol=lf
+autoconf/atoms3r/*.ini text eol=lf
+autoconf/atoms3r/*.be text eol=lf
