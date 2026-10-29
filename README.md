@@ -59,6 +59,12 @@ AtomS3R:
 | [m5Stack AtomS3R](https://docs.m5stack.com/en/core/AtomS3R) | Alternative: ESP32-S3-PICO mit 8 MB PSRAM und Display |
 | MLX90614 | Kontaktloser IR-Temperatursensor |
 | m5Stack ENV IV Unit | Enthält SHT40 (Temperatur & Feuchtigkeit) und BMP280 (Luftdruck), Anschluss per Grove |
+| Grove-Y-Kabel | Verbindet beide Sensor-Units mit dem Grove-Port des Atom |
+
+### Halterung (3D-Druck)
+
+[`3d/Halterung_IR_Sensor.stl`](3d/Halterung_IR_Sensor.stl) – Würfel ca. 32 × 54 × 38 mm (inkl. Halterungslasche), ca. 13 cm³ Material.
+NCIR- und ENV-Unit werden auf die Steckzapfen gesetzt, die Kabel laufen innen. Die Lasche passt auf GoPro-kompatible Halter (z. B. Saugnapf oder Stativ).
 
 ### Unterschiede AtomS3 / AtomS3R
 
